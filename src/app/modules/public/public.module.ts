@@ -17,6 +17,7 @@ import { FirebaseDataModule } from 'src/app/code/modules/data/data-module';
 import { NgChartsModule } from 'ng2-charts';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LightboxModule } from 'ngx-lightbox';
+import { NoticiasComponent } from './components/noticias/noticias.component';
 
 
 
@@ -31,7 +32,8 @@ import { LightboxModule } from 'ngx-lightbox';
     InnovacionComponent,
     IndicePrecioAsfaltoComponent,
     ContactoComponent,
-    ProductosComponent
+    ProductosComponent,
+    NoticiasComponent
   ],
   imports: [
     CommonModule,

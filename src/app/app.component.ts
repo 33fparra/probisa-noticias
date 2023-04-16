@@ -4,8 +4,9 @@ import AOS from "aos";
 
 @Component({
   selector: 'app-root',
-  template: '<app-header (click)="playSound()"></app-header><router-outlet></router-outlet><app-footer></app-footer>'
+  template: '<app-header></app-header><router-outlet></router-outlet><app-footer></app-footer>'
 })
+// template: '<app-header (click)="playSound()"></app-header><router-outlet></router-outlet><app-footer></app-footer>'
 export class AppComponent {
   title = 'probisa-page';
   yaSonando = false;

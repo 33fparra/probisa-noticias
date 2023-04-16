@@ -10,6 +10,7 @@ import { IndicePrecioAsfaltoComponent } from './components/indice-precio-asfalto
 import { InnovacionComponent } from './components/innovacion/innovacion.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+import { NoticiasComponent } from './components/noticias/noticias.component';
 
 const routes: Routes = [
 
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path: 'contacto',
     component: ContactoComponent
+  },
+  {
+    path: 'noticias',
+    component: NoticiasComponent
   },
   {
     path: 'ipa',
