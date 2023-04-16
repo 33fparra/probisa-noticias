@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "probisa-ab6fb",
+  "private_key_id": "9c4aa6cafd3abccc1b81119702564ad76a193581",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDVhoO7a1jghXDa\nqbmWHUTZ0WmxYvlv95S1WSztvCj3R1t3ewazLFc06RPDhpE7Pa+ZfjIOvqu5EvMq\nUvBCFlbaVVBrx9FrKZj6Una/u+w6D33hguv/mce9SYskAT1fCx2Akk0y3cF65Rt/\naQpUhdPDHR0wDYplxeNTbF4sL0CxE8K4l5nVdxkoDjHbPN2VtuOlIOryhKkTP0D9\no2sAnZYA0XDchNux9osm1vjcyGYwqK387yR5b/pI7Laq25PPquXII1YXSVUEqidb\nKx46eGem1+t9ondWkUzUZQCkwPUt42hfnYo5fnyljbuVQ0UkiDW/QE+aokqjd+OV\nEI7OZieNAgMBAAECgf82AY/QF5ajMx0YMVV/YmfHr+/LrfzpFPXH6IY0myLBaIr5\n7WQEbXKhL1KQYbjaAwAnEoQWtqM4bFKUoeWi0YOmNW3h1Ohi8mJ+7dybIizdgo2U\nPEj0nTCn77IBqU6ce3M60cY012HYc5pA35B9UFv/PZ3kSYh3tVWKBB7NjiYOozo1\nm/izzRJ+Z3U+YdZbxU7QFYStZcoLvL+k9DRbsS8Gy3U6cKBadyeRh49R/ATxefdg\naOoqYz1r4KkVh6jMOT11Ud26YmAQnYhhyJ4bN94MbBJV4HHx86AQNj7pRT4ELiJN\nOOBm28ylS8MO5gK9tkkHjcBcN6+wk5jJPNJcbLECgYEA/WhHmPG238AF8pm/GzA1\nU0VkONgqeJhK/uuKfZonvelcgvozriiwpPEuvYPAs/ibP7pkC5X+uWIF9JptPQ0s\nVBKB+UFLQPxj0UwrNq64od1zI198TkqBsendxl0orK1Qs/tmoS4jvWGuoJEHiez8\naIqtjtMlm83QLelmvamL3PECgYEA17XG4v5ZVOehpHp2hSbO/cIEh45UZBn7/Vlz\neIWChypSZWQ0GZi5gzvZJTVFnMJym1Hb++0emaBCW2uZ2uaKR9j6BqeJCVxTybbE\nmeVbDt0BdwmYsicoCY8/0/xpOIrDh/wCztr7EExj6ykordDbwl28JPMZqEhCvxwC\nWSfVJF0CgYEAhMmuKwEOmTUgaL4UHIUojFgian8r0kHLmsWGrsam6KduaNv/VNXR\nqr0PhxORWT1+7OgZINEax74L7N83OvS6M9v268xBSO54x+YoBuGLspY+jVyt4MC+\nMaKhKh8K/2FaltW4M+HfrI+RWGZnEulyYr24sM0IOhqhak2SHvTHa6ECgYBEB8tS\n+b64vVjIY+sPMV8kvtTo36WT8HH9xAFb6FdzQ5C683BPBlCzp+NjDbsHpne4rod/\nm5gEAXwMExJx7DV+VVr9UEcy0ZCHVIIKu0ANnvwAS+GBhkHlSe1qcPfKYlEqiPtl\nu8BksoLsvo1azD0SvrdAu/7CiQ+r8Cx5a8uX7QKBgH8KCPherASLpCS/8HRCtlTd\nupwgmQO5Wxz/uN/wvdFtDi//Mj/PdBonLWcXDTgD4z4y7M8ZVMKMVt9rBlON8Sdd\nqXbZjGfnVjxC2w2PR3LyPJmzfOGGGU5AEXtC3L0g5cr4aj38aOfC9jKKAp4165mw\ne5KRJN+Ll2P2KxZwTYAw\n-----END PRIVATE KEY-----\n",
+  "client_email": "config-libreria-externa-firest@probisa-ab6fb.iam.gserviceaccount.com",
+  "client_id": "117168200940703369351",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/config-libreria-externa-firest%40probisa-ab6fb.iam.gserviceaccount.com"
+}

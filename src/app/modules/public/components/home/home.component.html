@@ -1,0 +1,19 @@
+<!-- Slider Start -->
+<section class="slider home">
+  <video playsinline autoplay [muted]="'muted'" loop poster="assets/home-1.jpg" id="bgvid">
+    <source src="assets/probisa.mp4" type="video/mp4">
+  </video>
+  <div class="promo position-absolute" (click)="open(showvideo)">
+    <p><i *ngIf="!flagvideo">Mira nuestro nuevo producto ECOASFALTO</i><i *ngIf="flagvideo">X Cerrar Video</i></p>
+  </div>
+  
+</section><input id="show-vid" type="checkbox" #showvideo/>
+<div id="overlay" for="show-vid">
+  <div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YvWu2-644b4" frameborder="0" allow="autoplay" encrypted-media allowfullscreen></iframe>
+  </div>
+</div>
+<!-- Section Intro Start -->
+
+
+

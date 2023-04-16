@@ -1,0 +1,73 @@
+.carousel-inner {
+  padding: 32px;
+}
+
+.indicators>button.active {
+  color: red;
+}
+
+.carousel-indicators {
+  position: relative;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  margin: 0;
+}
+
+.carousel .carousel-indicators button {
+  border-radius: 100%;
+  flex: 1;
+  text-indent: 0;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-indicators>button>div.centerer {
+  position: absolute;
+  left: 50%;
+  top: -28px;
+}
+
+div.centerer>div {
+  position: relative;
+  left: -50%;
+  top: 12px;
+}
+
+.carousel-indicators>button.active>div {
+  font-weight: 700;
+}
+
+.bullet {
+  width: 16px;
+  height: 16px;
+  background: var(--main-500);
+  border: 1 px solid var(--main-400);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.carousel-inner {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.carousel-control.left {
+  margin-left: -25px;
+}
+
+.carousel-control.right {
+  margin-right: -25px;
+}
+
+.col-image img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.col-image {
+  height: 390px;
+}

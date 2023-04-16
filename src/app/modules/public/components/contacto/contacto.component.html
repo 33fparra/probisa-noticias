@@ -1,0 +1,74 @@
+<section class="contact-form-wrap section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <form [formGroup]="contactForm" id="contact-form" class="contact__form">
+          <h3 class="text-md mb-4">Contáctenos</h3>
+          <div class="form-group">
+            <input name="name" type="text" class="form-control" placeholder="Tu Nombre" required formControlName="name">
+          </div>
+          <div class="form-group">
+            <input name="email" type="email" class="form-control" placeholder="Dirección de Correo" required
+              formControlName="email">
+          </div>
+
+          <div class="form-group">
+            <input name="asunto" type="text" class="form-control" placeholder="Asunto" required
+              formControlName="asunto">
+          </div>
+          <div class="form-group-2 mb-4">
+            <textarea name="message" class="form-control" rows="4" placeholder="Tu Mensaje" required
+              formControlName="message"></textarea>
+          </div>
+          <button class="btn btn-main" [disabled]="contactForm.invalid || loading" type="button"
+            (click)="sendForm()">Enviar
+            Mensaje &nbsp;
+            <div *ngIf="loading" class="lds-ellipsis">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+        </form>
+      </div>
+
+      <div class="col-lg-5 col-sm-12">
+        <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
+          <!-- <span class="text-muted">We are Professionals</span> -->
+          <h2 class="mb-5 mt-2">No dude en contactar con nosotros para cualquier tipo de información.</h2>
+
+          <ul class="address-block list-unstyled">
+            <li>
+              <i class="bi bi-signpost-fill"></i>&nbsp;&nbsp;Cerro Sombrero Nº1010, Santiago, Chile
+            </li>
+            <li>
+              <i class="bi bi-envelope-paper-fill"></i>&nbsp;&nbsp;Email: contacto@probisa.cl
+            </li>
+            <li>
+              <i class="bi bi-telephone-inbound-fill"></i>&nbsp;&nbsp;Telefono: +56 9 9509 8663
+            </li>
+          </ul>
+
+          <ul class="social-icons list-inline mt-5">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/profile.php?id=100083112133568"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/company/productos-bituminosos-s-a/"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/eco_asfalto/"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UC2IsaajFLqWSZdSLjzmZQyA"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="google-map">
+  <div id="map" data-marker="images/marker.png" data-marker-name="Megakit"></div>
+</div>
