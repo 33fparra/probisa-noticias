@@ -29,9 +29,9 @@ export class ActividadesComponent implements OnInit {
   }, {
     year: '2022', img: 'i2022.jpg', title: 'Primer vogage charter', text: 'Primer arriendo de buque tanquero de asfalto de 12.000 TM de capacidad para la ruta USA-CHILE.'
   }];
-  constructor() { }
+  constructor() { };
 
   ngOnInit(): void {
-  }
+  };
 
 }

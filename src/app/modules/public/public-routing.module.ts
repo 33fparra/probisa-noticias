@@ -14,7 +14,6 @@ import { NoticiasComponent } from './components/noticias/noticias.component';
 
 const routes: Routes = [
 
-
   {
     path: 'actividades',
     component: ActividadesComponent
