@@ -11,18 +11,18 @@ export let listaNoticias: Noticia[] =
     {
       "id": 1,
       "titulo": "HOLA",
-      "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
+      "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
       "fecha": "2021-01-01",
-      "foto": `${fotoPrincipal}about.jpg`,
-      "fotos": [`${fotoSecundaria}counter.jpg`, `${fotoSecundaria}home-1.jpg`]
+      "foto": `${fotoPrincipal}1.jpg`,
+      "fotos": [`${fotoSecundaria}2.jpg`, `${fotoSecundaria}2.jpg`,`${fotoSecundaria}3.jpg`,`${fotoSecundaria}4.jpg`]
     },
     {
       "id": 2,
       "titulo": "HOLA2",
       "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
       "fecha": "2021-02-01",
-      "foto": `${fotoPrincipal}bg-1.jpg`,
-      "fotos": [`${fotoSecundaria}home-2.jpg`, `${fotoSecundaria}home-3.jpg`]
+      "foto": `${fotoPrincipal}2.jpeg`,
+      "fotos": [`${fotoSecundaria}11.jpg`, `${fotoSecundaria}22.jpg`,`${fotoSecundaria}33.jpg`,`${fotoSecundaria}44.jpg`]
     },
     {
       "id": 3,
