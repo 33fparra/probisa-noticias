@@ -28,7 +28,7 @@
   color: var(--terciary-100);
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   .fondo {
     margin-left: 0px !important;
   }
@@ -71,7 +71,7 @@
 }
 
 .item-carousel {
-  height: 200.2px;
+  height: 182.2px;
 }
 
 //carucel horizontal :
@@ -82,7 +82,15 @@
 .fotos-container img {
   width: 200px;
   height: 142px;
-  margin-right: 5px;
+  margin-right: 25px;
+  flex: 0 0 33%;
+}
+
+.fotos-container button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  padding: 5px 8px;
 }
 .fotos-container img:last-child {
   margin-right: 0;
@@ -111,4 +119,28 @@
       cursor: pointer;
     }
   }
+
+}
+
+
+.contenedor-carrousel{
+  overflow: hidden;
+}
+
+.carrousel{
+  display: flex;
+  translate: 0;//-35.9%;
+  transition: translate 0.5s ease;
+}
+
+.botonLeer{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.botones-leer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }

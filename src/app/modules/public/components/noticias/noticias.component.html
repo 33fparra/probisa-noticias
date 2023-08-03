@@ -15,9 +15,19 @@
             <p class="limited-height" id="descripcion">
               {{ noticia.descripcion }}
             </p>
-            <p class="read-more" id="leerMas">
-              <a href="#">Leer Más</a>
+            <!-- <p *ngIf="leerBoolean; else otro" class="read-more" id="leerMas">
+              <button class="botonLeer" (click)="leerMas()">Leer Más</button>
             </p>
+
+            <ng-template #otro>
+              <p class="read-more" id="leerMas">
+                <button class="botonLeer" (click)="leerMenos()">Leer Menos</button>
+              </p>
+            </ng-template> -->
+          </div>
+          <div class="botones-leer">
+            <span class="read-more" id="leerMas"> Leer Menos </span>
+            <span class="read-more" id="leerMas">Leer Más </span>
           </div>
           <p>{{ noticia.fecha }}</p>
 
@@ -58,8 +68,20 @@
       </div>
       <!--Fin DE description noticias selec--- div vertical -->
       <!--inicio de mas noticias --- carrucel div horizontal -->
-      <div class="col-md-12 col-lg-7 d-flex fotos-container">
-        <img *ngFor="let foto of noticia.fotos" [src]="foto" alt="Foto">
+      <div class="col-md-12 col-lg-7 d-flex fotos-container" style="width: 100%;">
+        <button class="carousel-button carousel-button-next" (click)="changeImgCarousel2(true)">
+          <i class="fa fa-chevron-left"></i>
+        </button>
+        <div class="contenedor-carrousel">
+          <div class="carrousel" #carousel2>
+            <img *ngFor="let foto of noticia.fotos" [src]="foto" alt="Foto">
+          </div>
+        </div>
+        <button class="carousel-button carousel-button-next" (click)="changeImgCarousel2(false)">
+          <i class="fa fa-chevron-right"></i>
+        </button>
       </div>
       <!--fIN de mas noticias --- carrucel div horizontal -->
     </div>
+  </div>
+</section>

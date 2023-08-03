@@ -10,11 +10,13 @@ export let listaNoticias: Noticia[] =
   [
     {
       "id": 1,
-      "titulo": "HOLA",
+      "titulo": "HOLAAA",
       "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
       "fecha": "2021-01-01",
-      "foto": `${fotoPrincipal}1.jpg`,
-      "fotos": [`${fotoSecundaria}2.jpg`, `${fotoSecundaria}2.jpg`,`${fotoSecundaria}3.jpg`,`${fotoSecundaria}4.jpg`]
+      // "foto": `${fotoPrincipal}1.jpg`,
+      "foto": `${fotoPrincipal}2.jpg`,
+      // "fotos": [`${fotoSecundaria}2.jpg`, `${fotoSecundaria}2.jpg`,`${fotoSecundaria}3.jpg`,`${fotoSecundaria}4.jpg`]
+      "fotos": [`${fotoSecundaria}22.jpg`, `${fotoSecundaria}22.jpg`,`${fotoSecundaria}33.jpg`,`${fotoSecundaria}44.jpg`,`${fotoSecundaria}44.jpg`,`${fotoSecundaria}44.jpg`]
     },
     {
       "id": 2,
@@ -42,7 +44,7 @@ export let listaNoticias: Noticia[] =
     },
     {
         "id": 5,
-        "titulo": "HOLA4",
+        "titulo": "HOLA5",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
@@ -50,7 +52,7 @@ export let listaNoticias: Noticia[] =
       },
       {
         "id": 6,
-        "titulo": "HOLA4",
+        "titulo": "HOLA6",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
@@ -58,7 +60,7 @@ export let listaNoticias: Noticia[] =
       },
       {
         "id": 7,
-        "titulo": "HOLA4",
+        "titulo": "HOLA7",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
@@ -66,7 +68,7 @@ export let listaNoticias: Noticia[] =
       },
       {
         "id": 8,
-        "titulo": "HOLA4",
+        "titulo": "HOLA8",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
@@ -75,7 +77,7 @@ export let listaNoticias: Noticia[] =
 
       {
         "id": 9,
-        "titulo": "HOLA4",
+        "titulo": "HOLA9",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
@@ -83,7 +85,7 @@ export let listaNoticias: Noticia[] =
       },
       {
         "id": 10,
-        "titulo": "HOLA4",
+        "titulo": "HOLA10",
         "descripcion": "A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image. A paragraph of placeholder text. We\n're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.",
         "fecha": "2021-04-01",
         "foto": `${fotoPrincipal}home-8.jpg`,
