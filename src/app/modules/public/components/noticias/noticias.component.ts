@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { listaNoticias, Noticia } from './Listanoticias';
 @Component({
   selector: 'app-noticias',
@@ -8,6 +8,9 @@ import { listaNoticias, Noticia } from './Listanoticias';
 export class NoticiasComponent implements OnInit {
   position = 0;
   constructor() { }
+
+
+
   noticia: Noticia = new Noticia();
   listNoticia: Noticia[] = [];
   ngOnInit(): void {
@@ -32,4 +35,24 @@ export class NoticiasComponent implements OnInit {
       this.position -= 100;
     }
   }
+
+  @ViewChild('carousel', { static: false }) carouselRef!: ElementRef;
+  changeImgCarousel(arriba: boolean) {
+    const carouselElement: HTMLElement = this.carouselRef.nativeElement;
+    let value = carouselElement.style.translate;
+    let numeroStr = value.substring(value.lastIndexOf(" ") + 1);
+    numeroStr = numeroStr.split("px")[0];
+    let numero = Number(numeroStr);
+
+    let translate = arriba ? numero + 220.81 : numero - 220.81;
+    translate = translate >= 0 ? 0 : translate;
+
+    let mayor = (this.listNoticia.length - 1) * -220.81;
+    translate = translate <= mayor ? mayor : translate;
+
+    //carouselElement.style.transform = `translate(${translate}%)`;
+    carouselElement.style.translate = `0px ${translate}px`;
+    // console.log(carouselElement.style.translate)
+  }
 }
+
