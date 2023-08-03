@@ -31,6 +31,8 @@
 @media (max-width: 991px) {
   .fondo {
     margin-left: 0px !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .tituloNoticias {
@@ -38,9 +40,16 @@
   }
 }
 
+@media (max-width: 767px) {
+  .clearfix{
+    text-align: center;
+  }
+}
+
 .contenedor-carousels {
 
-  border: 2px solid #000;
+  // border: 2px solid #000;
+  border: 2px solid rgba(0,0,0,0.2);
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0px 0px 0px 3px lightgray;
@@ -76,6 +85,7 @@
 
 //carucel horizontal :
 .fotos-container {
+  margin-top: 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -103,15 +113,18 @@
   .limited-height {
     max-height: 600px;
     overflow: hidden;
+    margin-bottom: 0;
   }
 
   .read-more {
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0;*/
     background-color: white;
-    padding: 5px;
+    /*padding: 5px;
     margin: 0;
+    margin-top: 5px;*/
+    text-align: right;
 
     a {
       color: blue;
@@ -134,9 +147,11 @@
 }
 
 .botonLeer{
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #000;
+  background: #3B5CB8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: #3B5CB8;
 }
 
 .botones-leer{
