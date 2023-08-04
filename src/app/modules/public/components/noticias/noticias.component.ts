@@ -60,8 +60,7 @@ export class NoticiasComponent implements OnInit {
   }
 
   @ViewChild('carousel2', { static: false }) carouselRef2!: ElementRef;
-  changeImgCarousel2(izquierda: boolean)
-  {
+  changeImgCarousel2(izquierda: boolean) {
     const carouselElement: HTMLElement = this.carouselRef2.nativeElement;
     let value = carouselElement.style.translate;
     let numero = Number(value.split("%")[0]);
@@ -70,9 +69,9 @@ export class NoticiasComponent implements OnInit {
     translate = translate >= 0 ? 0 : translate;
     console.log(translate)
     let mayor = ((this.noticia.fotos.length - 1) * - this.desplazar2) + (this.desplazar2 * 2);
-    console.log("mayor: " +  mayor);
-    console.log("translate: " +  translate);
-    console.log("->: " +  (this.desplazar2 * 2));
+    console.log("mayor: " + mayor);
+    console.log("translate: " + translate);
+    console.log("->: " + (this.desplazar2 * 2));
     translate = translate <= mayor ? mayor : translate;
 
     //carouselElement.style.transform = `translate(${translate}%)`;
@@ -82,9 +81,9 @@ export class NoticiasComponent implements OnInit {
 
   leerBoolean = true;
 
-  leerMas()
-  {
+  leerMas() {
     if (!this.leerBoolean) return;
+    console.log(this.noticia);
 
     const p = document.getElementById('descripcion');
     if (p == null) return;
@@ -94,15 +93,14 @@ export class NoticiasComponent implements OnInit {
 
   }
 
-  leerMenos()
-  {
+  leerMenos() {
     if (this.leerBoolean) return;
 
     const p = document.getElementById('descripcion');
     if (p == null) return;
     this.leerBoolean = true;
     p.style.maxHeight = "600px";
-    p.style.overflow = "hidden";
+    p.style.overflow = "visible";
 
   }
 }

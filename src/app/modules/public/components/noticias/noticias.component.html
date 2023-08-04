@@ -3,7 +3,7 @@
     <div class="row">
       <!--inicio title descripcion-->
       <!--align-items-center-->
-      <div class="col-md-12 col-lg-7 d-flex align-content-center">
+      <div class="col-md-12 col-lg-7 d-flex align-content-center order-md-1 order-1">
         <div class="clearfix">
           <img loading="lazy" style="height: 380px" [src]="noticia.foto"
             class="col-sm-12 col-md-6 float-md-end mb-3 ms-md-3 main-image" alt="..." />
@@ -13,14 +13,14 @@
           <!---->
           <div class="descripcion">
             <p class="limited-height" id="descripcion">
-              {{ noticia.descripcion }}
+              {{ leerBoolean ? noticia.descripcion : noticia.noticia}}
             </p>
-            <p *ngIf="leerBoolean; else otro" class="read-more" id="leerMas">
+            <p *ngIf="noticia.boton && leerBoolean; else otro" class="read-more" id="leerMas">
               <button class="botonLeer" (click)="leerMas()">Leer Más</button>
             </p>
 
             <ng-template #otro>
-              <p class="read-more" id="leerMas">
+              <p *ngIf="noticia.boton" class="read-more" id="leerMas">
                 <button class="botonLeer" (click)="leerMenos()">Leer Menos</button>
               </p>
             </ng-template>
@@ -36,7 +36,7 @@
       </div>
       <!--fin title descripcion-->
       <!--iNICIO DE description noticias selec--- div vertical -->
-      <div class="col-md-12 col-lg-4 fondo">
+      <div class="col-md-12 col-lg-4 fondo order-md-2 order-3">
         <div style="text-align: center;">
           <button class="carousel-button carousel-button-next" (click)="changeImgCarousel(true)">
             <i class="fa fa-chevron-up"></i>
@@ -68,7 +68,7 @@
       </div>
       <!--Fin DE description noticias selec--- div vertical -->
       <!--inicio de mas noticias --- carrucel div horizontal -->
-      <div class="col-md-12 col-lg-7 d-flex fotos-container" style="width: 100%;">
+      <div class="col-md-12 col-lg-7 d-flex fotos-container order-md-3 order-2" style="width: 100%;">
         <button class="carousel-button carousel-button-next" (click)="changeImgCarousel2(true)">
           <i class="fa fa-chevron-left"></i>
         </button>
