@@ -64,14 +64,14 @@ export class NoticiasComponent implements OnInit {
     const carouselElement: HTMLElement = this.carouselRef2.nativeElement;
     let value = carouselElement.style.translate;
     let numero = Number(value.split("%")[0]);
-    console.log(numero);
+    //console.log(numero);
     let translate = izquierda ? numero + this.desplazar2 : numero - this.desplazar2;
     translate = translate >= 0 ? 0 : translate;
-    console.log(translate)
+    //console.log(translate)
     let mayor = ((this.noticia.fotos.length - 1) * - this.desplazar2) + (this.desplazar2 * 2);
-    console.log("mayor: " + mayor);
-    console.log("translate: " + translate);
-    console.log("->: " + (this.desplazar2 * 2));
+    //console.log("mayor: " + mayor);
+    //console.log("translate: " + translate);
+    //console.log("->: " + (this.desplazar2 * 2));
     translate = translate <= mayor ? mayor : translate;
 
     //carouselElement.style.transform = `translate(${translate}%)`;
