@@ -83,7 +83,7 @@ export class NoticiasComponent implements OnInit {
 
   leerMas() {
     if (!this.leerBoolean) return;
-    console.log(this.noticia);
+    // console.log(this.noticia);
 
     const p = document.getElementById('descripcion');
     if (p == null) return;
